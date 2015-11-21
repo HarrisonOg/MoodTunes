@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements
 
     public void addListenerOnButton1() {
 
-        //button = (Button) findViewById(R.id.happyButton);
+        button = (Button) findViewById(R.id.happyButton);
 
         button.setOnClickListener(new OnClickListener() {
 
@@ -75,7 +75,7 @@ public class MainActivity extends Activity implements
 
     public void addListenerOnButton2() {
 
-        //button = (Button) findViewById(R.id.skipButton);
+        button = (Button) findViewById(R.id.skipButton);
 
         button.setOnClickListener(new OnClickListener()  {
 
